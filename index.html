@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-5" href="#">VIRTUAL REALITY HEADSETS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active fs-6 fs-bold" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-6 fs-bold" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-6 fs-bold" href="#">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-6 fs-bold btn-primary text-white px-4 py-2 ms-2" href="Contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--hero section-->
+    <section>
+        <div class="container py-5">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-12 col-lg-6">
+                    <h1 class="display-4 fw-bold"><span class="bg-blue"> Discover </span> the future of tech</h1>
+                    <p class="lead pb-3 pt-2">Explore our latest gadgets and accessories designed to elevate your digital lifestyle</p>
+                    <button class="btn btn-primary px-5 py-3 d-inline-block">Shop Now</button>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <img src="img/image1.png" alt="vr headset" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+</header>
+
+<section class="container py-5 mt-5">
+    <div class="row g-5">
+        <div class="col-12 col-lg-4">  
+            <img src="img/image2.jpg" alt="vr headset" class="img-fluid ms-auto d-inline-block">
+        </div>
+        <div class="col-12 col-lg-8">
+            <h2 class="text-primary fs-1 fw-bold mb-3">About Virtual Reality Headsets</h2>
+
+            <p>A virtual reality headset (or VR headset) is a head-mounted device that provides
+                a virtual reality environment for the wearer. VR headsets are widely used with
+                VR video games but they are also used in other applications, including simulators
+                and trainers. VR headsets typically include a stereoscopic display (providing
+                separate images for each eye), stereo sound, and sensors like accelerometers 
+                and gyroscopes for tracking the pose of the user's head to match the orientation
+                of the virtual camera with the user's eye positions in the real world.</p> 
+            <p>Some VR headsets also have eye-tracking sensors
+                and gaming controllers. The VR glasses use a technology 
+                called head-tracking, which changes the field of vision
+                as a person turns their head. The technology may not be 
+                perfect, as there is latency if the head moves too fast.
+                Still, it does offer an immersive experience.</p>
+            <button class="btn btn-primary px-5 py-3 d-inline-block fs-5 fw-bold">Read more about VR</button>
+        </div>
+    </div>
+</section>
+
+
+<section class="container py-5">
+    <div class="row">
+        <div class="col-12">
+             <h2 class="text-primary fs-1 fw-bold mb-3 text-center">PRODUCTS</h2>
+            <ul class="nav nav-tabs" id="imageTabs" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="image1-tab" data-bs-toggle="tab" data-bs-target="#image1" type="button" role="tab" aria-controls="image1" aria-selected="true">Tethered VR headsets</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="image2-tab" data-bs-toggle="tab" data-bs-target="#image2" type="button" role="tab" aria-controls="image2" aria-selected="false">Standalone VR headsets</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="image3-tab" data-bs-toggle="tab" data-bs-target="#image3" type="button" role="tab" aria-controls="image3" aria-selected="false">Mobile VR headsets</button>
+                </li>
+            </ul>
+            <br>
+            <br>
+            <!-- Tab panes -->
+            <div class="tab-content" id="imageTabsContent">
+                <div class="tab-pane fade show active" id="image1" role="tabpanel" aria-labelledby="image1-tab">
+                    <img src="img/p1.jpg" alt="Image 1" class="img-fluid">
+                </div>
+                <div class="tab-pane fade" id="image2" role="tabpanel" aria-labelledby="image2-tab">
+                    <img src="img/p2.png" alt="Image 2" class="img-fluid">
+                </div>
+                <div class="tab-pane fade" id="image3" role="tabpanel" aria-labelledby="image3-tab">
+                    <img src="img/p3.jpg" alt="Image 3" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="video-section">
+    <div class="video">
+        <h2 class="text-primary fs-1 fw-bold mb-3 text-center">WATCH OUR VIDEO</h2>
+        <br>
+        <br>
+        <div class="video-wrapper">
+            <iframe width="560" height="315" src="img/movements.mp4" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+</section>
+<br>
+<br>
+<footer class="bg-dark text-light py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <p>&copy; 2024 Your Website. All rights reserved.</p>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="#">Home</a></li>
+                    <li class="list-inline-item"><a href="#">About</a></li>
+                    <li class="list-inline-item"><a href="#">Products</a></li>
+                    <li class="list-inline-item"><a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
+
